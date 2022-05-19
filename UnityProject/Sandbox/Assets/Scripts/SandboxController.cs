@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SandboxController : MonoBehaviour
+namespace Sandbox
 {
 
-    public void StartButton()
+    public class SandboxController : MonoBehaviour
     {
-        Debug.Log("Start");
+
+        public void StartButton()
+        {
+            Debug.Log("Start");
+        }
+
     }
 
 }
-
