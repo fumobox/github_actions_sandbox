@@ -1,10 +1,10 @@
 name: Run EditMode and PlayMode Test
 on:
   workflow_dispatch: {}
-permissions:
-  id-token: write
-  contents: read
-  actions: read  
+#permissions:
+#  id-token: write
+#  contents: read
+#  actions: read  
 jobs:
   test:
     name: Run EditMode and PlayMode Test
