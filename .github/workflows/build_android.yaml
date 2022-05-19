@@ -20,7 +20,7 @@ jobs:
         with:
           # ref: https://docs.unity3d.com/ScriptReference/BuildTarget.html
           targetPlatform: Android
-
+          projectPath: ./UnityProject/Sandbox
           unityVersion: 2021.3.2f1
       # Builder で出力したビルドを GitHub Pages にデプロイする
       - name: Deploy to GitHub Pages
